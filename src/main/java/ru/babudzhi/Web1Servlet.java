@@ -8,10 +8,6 @@ import java.io.IOException;
 
 public class Web1Servlet extends HttpServlet {
 
-    @Override
-    protected void doPut(HttpServletRequest request, HttpServletResponse response) {
-        request.getParameter("name");
-    }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
