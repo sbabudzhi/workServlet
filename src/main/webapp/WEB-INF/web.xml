@@ -14,4 +14,16 @@
     <servlet-name>web1Servlet</servlet-name>
     <url-pattern>/test1</url-pattern>
   </servlet-mapping>
+
+    <servlet>
+        <servlet-name>web1Servlet2</servlet-name>
+        <servlet-class>ru.babudzhi.Web1Servlet2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>web1Servlet2</servlet-name>
+        <url-pattern>/test2</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
