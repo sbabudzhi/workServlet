@@ -11,6 +11,6 @@
     <title>Test</title>
 </head>
     <body>
-    <h2>Hello  <%=request.getParameter("name")%>!</h2>
+        <h2>Hello  <%=request.getParameter("name")%>!</h2>
     </body>
 </html>
